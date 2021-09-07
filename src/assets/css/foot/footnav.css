@@ -1,0 +1,5 @@
+.footnav li{
+    float: left;
+    margin-right: 100px;
+    text-decoration: none;
+}

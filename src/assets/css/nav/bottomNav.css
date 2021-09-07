@@ -1,0 +1,100 @@
+.bottomNav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0,0,0);
+  
+}
+.bottomNav li{
+    color: white;
+    display: block;
+    width: 125px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+   
+}
+.bottomNav li a{
+    font-size: large;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    color: white;
+}
+.bottomNav li a:hover{
+    color: orange;
+}
+
+.nav{
+    transition: 1s;
+}
+
+.other{
+    position: absolute;
+    top:80px;
+    right: 20px;
+    width: 30px;
+    height: 5px;
+    padding: 5px 0;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-clip: content-box;
+    background-color: white;
+    cursor: pointer;
+}
+.kailong{
+    position: fixed;
+    top: 90px;
+    right: 550px;
+	widows: 10px;;
+    height:0;
+	border-right:10px solid transparent;
+	border-left:10px solid transparent;
+    border-bottom:10px solid orange;
+    cursor: pointer;
+    z-index: 10000;
+}
+.line1,.line2,.line3,.lin4{
+    position: relative;
+    width: 0px;
+    border-top: 3px solid orange;
+    z-index: 1000;
+}
+.line1{
+    left: 340px;
+    top: 77px;
+    animation:mymove 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode :forwards;
+}
+.line2{
+    left: 465px;
+    top: 74px;
+    animation:mymove 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode :forwards
+}
+.line3{
+    left: 595px;
+    top: 71px;
+    animation:mymove 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode :forwards
+}
+
+@keyframes mymove{
+    0%{width: 0px;}
+
+    100%{width: 125px;}
+}
+@keyframes myleave{
+    0%{width: 125px;}
+
+    100%{width: 0px;}
+}
+.none{
+    position: relative;
+    animation:myleave 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}

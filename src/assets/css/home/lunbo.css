@@ -1,0 +1,104 @@
+.bigbox{
+    width: 800px;
+    height:500px;
+    position: relative;
+    left: 3%;
+   margin-right: 0;
+}
+.smallbox{
+    width: 800px;
+    height: 500px;
+}
+.smallbox img{
+    width: 790px;
+}
+.left{
+    position: absolute;
+    left: 0;
+    top: 39%;
+    width: 50px;
+    height: 50px;
+    
+}
+.right{
+    position: absolute;
+    top: 39%;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.bigbox li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 100;
+    margin-right: 20px;
+    position: relative;
+    left: 45%;
+    bottom: 100px;
+}
+.bigbox li:hover{
+    background-color: orange;
+}
+.active{
+    background-color: orange;
+    z-index: 1000000;
+}
+.inactive{
+    background-color: beige;
+}
+
+
+
+
+.bigbox2{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 82%;
+    height: 880px;
+    margin: auto;
+    position: relative;
+    border-top: solid rgb(89,89,89);
+}
+.smallbox2{
+    width: 300px;
+    height:350px;
+    float: left;
+    margin-right: 10px;
+}
+.smallbox2 img{
+    width: 300px;
+    transition: 1s;
+    border-radius: 10px;
+}
+.smallbox2 img:hover{
+    transform: translateY(-25%);
+}
+.bigbox2 li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 100;
+    margin-right: 20px;
+    position: relative;
+    left: 42%;
+    bottom: 100px;
+}
+.bigbox2 li:hover{
+    background-color: orange;
+}
+.active{
+    background-color: orange;
+    z-index: 1000000;
+}
+.inactive{
+    background-color: beige;
+}
+
+#photo1,#photo2,#photo3,#photo4,#photo5,#photo6{
+    width: 300px;
+    transition: 1s;
+    
+}

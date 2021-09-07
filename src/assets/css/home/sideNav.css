@@ -1,0 +1,87 @@
+.sideNav{
+    position: fixed;
+    z-index: 100;
+    top: 130px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(76,76,76);
+    opacity: 0.95;
+    color: white;
+    padding-left: 20px;
+}
+.sideNav  a{
+    color: white;
+}
+.sideNav a:hover{
+    color: orange;
+}
+.closebtn::before, .closebtn::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    background: red;
+}
+.closebtn::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.closebtn::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.closebtn{
+    top: 40px;
+    right: 500px;
+    position: absolute;
+    cursor: pointer;
+}
+.goLeft{
+    position: fixed;
+    right: -57%;
+    z-index: 100;
+    top: 130px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(76,76,76);
+    border-left: 1px solid black;
+    opacity: 0.95;
+    color: white;
+    padding-left: 40px;
+    animation: goleft 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode :forwards;
+}
+@keyframes goleft{
+    0%{right: -57%;}
+    100%{right: -27%;}
+}
+.goBack{
+    position: fixed;
+    right: -29%;
+    z-index: 100;
+    top: 130px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(76,76,76);
+    border-left: 1px solid black;
+    opacity: 0.95;
+    color: white;
+    padding-left: 40px;
+    animation: goback 1s;
+    animation-timing-function: linear;
+    animation-fill-mode :forwards;
+}
+@keyframes goback{
+    0%{right: -27%;}
+    100%{right: -57%;}
+}

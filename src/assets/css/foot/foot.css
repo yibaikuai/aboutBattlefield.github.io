@@ -1,0 +1,34 @@
+.foot1 {
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(37, 37, 37);
+    position: relative;
+}
+
+.foot2 {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    color: rgb(189,189,189);
+    text-align: center;
+}
+.mulu1,.mulu2{
+    width: 75%;
+    height: 250px;
+    background-color:  rgb(37, 37, 37);
+    margin: auto;
+}
+.mulu1{
+ 
+   position: relative;
+   left: 20px;
+  
+}
+.mulu2{
+    border-top: solid rgb(89,89,89);
+}
+.mulu1 a,p{
+    color: white;
+}

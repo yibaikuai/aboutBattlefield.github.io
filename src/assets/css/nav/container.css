@@ -1,0 +1,17 @@
+#container ul li{
+ 
+    
+   background-color: black;
+   opacity: 0.88;
+}
+#container ul div{
+    width: 250px;
+    height: 400px;
+    position: relative;
+    left: -50px;
+    z-index: 100;
+    border-radius: 50%;
+}
+#container ul div li a{
+    font-size: medium;
+}
